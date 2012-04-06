@@ -1,0 +1,16 @@
+{
+	"name": "DoubanMovie2An80",
+	"version": "1.0",
+	"description": "Show An80 link in douban movie",
+	"content_scripts": [{
+		"matches": ["http://movie.douban.com/*"],
+		"js": ["js/jquery.js","js/db2an80.js"]
+	}],
+	"permissions": [
+		"tabs", "http://www.an80.com/*"
+	],
+	"icons": {
+		"48": "icon.png",
+		"128": "icon.png"
+	}
+}
