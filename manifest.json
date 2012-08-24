@@ -4,7 +4,7 @@
 	"description": "Show An80 link in douban movie",
 	"content_scripts": [{
 		"matches": ["http://movie.douban.com/*"],
-		"js": ["js/jquery.js","js/db2an80.js"]
+		"js": ["js/jquery.js","js/translate.js","js/db2an80.js"]
 	}],
 	"permissions": [
 		"tabs", "http://www.an80.com/*"

@@ -57,6 +57,7 @@ var query;
 // Movie Page
 if(url.indexOf("subject") != -1 ){
 	query = $("#mainpic img").attr("alt");
+	query = Simplized(query);
 	var btn = sendQuery(query);
 	$("div.a_stars").before(btn);
 }
